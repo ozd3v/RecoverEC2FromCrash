@@ -200,7 +200,7 @@ Go and shutdown the EC2 instance, this will triger an alarm that will trigger th
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-None for de moment.
+None for the moment.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -212,7 +212,7 @@ None for de moment.
 
 - [@ozd3v](https://github.com/ozd3v) - Idea & Initial work
 - [@8SQ](https://www.8sq.cl) - Entrepreneurship
-- [@linkedin](https://www.linkedin.com/in/ricardoberrezueta/) - Me
+- [@linkedin](https://www.linkedin.com/in/ricardoberrezueta/) - Me (account is not public BTW)
 
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
