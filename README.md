@@ -23,9 +23,7 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
+-- [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
@@ -212,7 +210,7 @@ None for de moment.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@ozd3ev](https://github.com/ozd3ev) - Idea & Initial work
+- [@ozd3v](https://github.com/ozd3v) - Idea & Initial work
 - [@8SQ](https://www.8sq.cl) - Entrepreneurship
 - [@linkedin](https://www.linkedin.com/in/ricardoberrezueta/) - Me
 
