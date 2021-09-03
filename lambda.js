@@ -1,20 +1,20 @@
 var AWS = require('aws-sdk');
 
-AWS.config.update({region: 'us-west-2'});
+AWS.config.update({region: 'REGION'});
 
 exports.handler = async (event) => {
     var ec2 = new AWS.EC2({apiVersion: '2016-11-15'});
     var instanceParams = {
-       ImageId: 'ami-09016603f45eb4d67', 
-       InstanceType: 't2.micro',
-       KeyName: 'test-oregon',
+       ImageId: 'AMI ID', 
+       InstanceType: 'SIZE OF THE INSTANCE',
+       KeyName: 'KEY PAIR NAME',
        MinCount: 1,
        MaxCount: 1,
          IamInstanceProfile: {
     Name: 'CloudWatchAgentServerRoleEC2'
   },
-       SubnetId: 'subnet-02e754a5b393feb1a',
-       SecurityGroupIds: ['sg-0e32c3bb6b8174096'],
+       SubnetId: 'SUBNET ID',
+       SecurityGroupIds: ['SECURITY GRP ID'],
        
          TagSpecifications: [
      {
@@ -22,7 +22,7 @@ exports.handler = async (event) => {
     Tags: [
        {
       Key: "Name", 
-      Value: "test-org"
+      Value: "NAME FOR THE NEW INSTANCE"
      }
     ]
    }
