@@ -1,0 +1,13 @@
+[Unit]
+Description= AWS Check
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/python3.9 /usr/bin/healthcheck.py
+KillMode=process
+Restart=on-failure
+RestartSec=60s
+
+[Install]
+WantedBy=multi-user.target
