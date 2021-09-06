@@ -34,6 +34,10 @@ if the metric is loss (missing data) it will generate an SNS notification that w
 
 The lambda function will spawn a new EC2 instances bases on an AMI
 
+## Design
+
+<img  src="https://raw.githubusercontent.com/ozd3v/RecoverEC2FromCrash/master/recoverec2fromcrash.svg" alt="Project logo"></a>
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
